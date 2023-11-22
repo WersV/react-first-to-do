@@ -1,0 +1,36 @@
+.list {
+  flex-basis: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.liEl {
+  display: flex;
+  margin: 20px 0;
+  padding-top: 15px;
+  border-top: 1px solid black;
+}
+
+.liSpan {
+  flex-basis: 100%;
+}
+
+.liSpan.done {
+  text-decoration: line-through;
+}
+
+.btn {
+  border: 2px solid lightblue;
+  background-color: transparent;
+  color: var(--main-color);
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--main-color);
+  color: white;
+}
